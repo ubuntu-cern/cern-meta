@@ -1,7 +1,6 @@
 Source: cern-meta
 Section: devel
 Priority: extra
-Architecture: all
 Maintainer: Ubuntu CERN Team <ubuntu-cern-bugs@ninsei.hu>
 Standards-Version: 3.7.2
 Build-Depends: dpkg (>= 1.13.19), debhelper (>= 3)
