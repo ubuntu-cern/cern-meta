@@ -8,8 +8,26 @@ Build-Depends: dpkg (>= 1.13.19), debhelper (>= 3)
 Package: cern-recommended
 Section: admin
 Priority: extra
+Architecture: all
 Depends: openafs-modules-generic | openafs-modules-server, cern-krb5-config
 Description: Recommended packages for CERN Ubuntu
  This package depends on a set of packages, which are
  recommended for an Ubuntu installation at CERN.
 
+Package: cern-grid
+Section: admin
+Priority: extra
+Architecture: all
+Depends: lcg-vomscerts, ca-policy-igtf-classic
+Description: Grid packages of CERN Ubuntu
+ This package depends on a set of packages, which are
+ recommended for grid Ubuntu installation at CERN.
+
+Package: cern-all
+Section: admin
+Priority: extra
+Architecture: all
+Depends: cern-recommended, cvs-gssapi, cern-grid, pvc, chroot-envs
+Description: All packages of CERN Ubuntu
+ This package depends on all packages, which can 
+ be useful in an Ubuntu installation at CERN.
