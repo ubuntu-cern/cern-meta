@@ -1,3 +1,10 @@
+cern-meta (debian/changelog) jaunty; urgency=low
+
+  * replaced the cvs-gssapi dependency by cern-virtual-cvs-gssapi,
+    which is going to be provided by a patched cvs package
+
+ -- Frohner Ákos <akos@frohner.hu>  Sat, 16 May 2009 00:33:12 +0200
+
 cern-meta (0.2.0-1) intrepid; urgency=low
 
   * added cern-recommended, cern-grid and cern-all metapackages 
