@@ -1,4 +1,4 @@
-cern-meta (debian/changelog) jaunty; urgency=low
+cern-meta (0.3.0-1) jaunty; urgency=low
 
   * replaced the cvs-gssapi dependency by cern-virtual-cvs-gssapi,
     which is going to be provided by a patched cvs package
