@@ -18,7 +18,7 @@ Package: cern-grid
 Section: admin
 Priority: extra
 Architecture: all
-Depends: lcg-vomscerts, ca-policy-igtf-classic
+Depends: lcg-vomscerts, ca-policy-igtf-classic, fetch-crl
 Description: Grid packages of CERN Ubuntu
  This package depends on a set of packages, which are
  recommended for grid Ubuntu installation at CERN.
