@@ -9,7 +9,7 @@ Package: cern-recommended
 Section: admin
 Priority: extra
 Architecture: all
-Depends: openafs-modules-generic | openafs-modules-server, cern-krb5-config, cern-virtual-cvs-gssapi, cern-tnsnames-ora
+Depends: cern-linux-generic | cern-linux-server, cern-krb5-config, cern-virtual-cvs-gssapi, cern-tnsnames-ora, heimdal-clients | krb5-user
 Description: Recommended packages for CERN Ubuntu
  This package depends on a set of packages, which are
  recommended for an Ubuntu installation at CERN.

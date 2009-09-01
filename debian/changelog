@@ -1,3 +1,16 @@
+cern-meta (0.7.0-1) jaunty; urgency=low
+
+  * Alternative Kerberos utilities: heimdal-clients or krb5-user
+  * Linux kernel metapackages to ensure synchronized upgrade of OpenAFS modules
+
+ -- Frohner Ákos <akos@frohner.hu>  Tue, 01 Sep 2009 11:43:41 +0200
+
+cern-meta (0.6.0-1) jaunty; urgency=low
+
+  * Added heimdal-clients as dependency to cern-recommended. 
+
+ -- Frohner Ákos <akos@frohner.hu>  Wed, 26 Aug 2009 10:56:17 +0200
+
 cern-meta (0.5.0-1) jaunty; urgency=low
 
   * Added fetch-crl as a dependency to cern-grid. 
