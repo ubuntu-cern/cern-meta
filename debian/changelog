@@ -1,3 +1,9 @@
+cern-meta (0.8.0-1) jaunty; urgency=low
+
+  * Added dependency to cern-recommended: lpadmincern 
+
+ -- Frohner Ákos <akos@frohner.hu>  Mon, 07 Sep 2009 13:51:18 +0200
+
 cern-meta (0.7.0-1) jaunty; urgency=low
 
   * Alternative Kerberos utilities: heimdal-clients or krb5-user
