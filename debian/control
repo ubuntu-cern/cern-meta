@@ -9,7 +9,7 @@ Package: cern-recommended
 Section: admin
 Priority: extra
 Architecture: all
-Depends: cern-linux-generic | cern-linux-server, cern-krb5-config, cern-virtual-cvs-gssapi, cern-tnsnames-ora, heimdal-clients | krb5-user, lpadmincern
+Depends: cern-linux-generic | cern-linux-server | openafs-modules-dkms, cern-krb5-config, cern-virtual-cvs-gssapi, cern-tnsnames-ora, heimdal-clients | krb5-user, lpadmincern
 Description: Recommended packages for CERN Ubuntu
  This package depends on a set of packages, which are
  recommended for an Ubuntu installation at CERN.
@@ -18,7 +18,7 @@ Package: cern-grid
 Section: admin
 Priority: extra
 Architecture: all
-Depends: lcg-vomscerts, ca-policy-igtf-classic, fetch-crl
+Depends: lcg-vomscerts, ca-policy-igtf-classic, fetch-crl, globus-proxy-utils
 Description: Grid packages of CERN Ubuntu
  This package depends on a set of packages, which are
  recommended for grid Ubuntu installation at CERN.
